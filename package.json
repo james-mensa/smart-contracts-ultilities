@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run ./scripts/deploy.ts",
+    "ballot": "npx hardhat run ./scripts/ballot.ts",
+    "bank": "ts-node ./scripts/script.ts",
+    "token": "ts-node ./scripts/token-script.ts",
+    "election": "ts-node ./scripts/election.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "bignumber.js": "^9.1.2",
+    "make-runnable": "^1.4.1",
+    "ts-node": "^10.9.2",
+    "web3": "^1.3.6"
+  }
+}
